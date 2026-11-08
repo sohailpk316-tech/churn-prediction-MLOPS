@@ -1,0 +1,27 @@
+# Environments / caches
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+
+# Large/rebuildable model files (re-created by `python pipelines/run_pipeline.py`)
+models/*.pkl
+
+# NOTE: outputs/ and artifacts/ (results, plots, reports) are intentionally kept
+# in the repo so the results can be submitted/reviewed without re-running.
+
+# MLflow local stores (re-created by the Lab 4 / Lab 6 pipelines)
+mlflow.db
+mlartifacts/
+mlruns/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+mlruns/
+mlflow.db
+mlartifacts/

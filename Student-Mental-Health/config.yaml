@@ -1,0 +1,4 @@
+project: student-mental-health
+random_state: 42
+target_column: depression
+raw_data: data/raw/Student_Mental_health.csv

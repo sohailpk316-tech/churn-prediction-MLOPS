@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "tests": [
+    {
+      "test": "missing_column",
+      "detected": true
+    },
+    {
+      "test": "empty_dataset",
+      "detected": true
+    },
+    {
+      "test": "duplicate_rows",
+      "detected": true
+    }
+  ],
+  "failed_tests": []
+}

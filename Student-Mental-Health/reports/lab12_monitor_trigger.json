@@ -1,0 +1,8 @@
+{
+  "lab": 12,
+  "retraining_recommended": true,
+  "reasons": [
+    "Data drift threshold reached"
+  ],
+  "note": "Recommendation only. Review data quality and obtain appropriate approval before retraining or using any model."
+}

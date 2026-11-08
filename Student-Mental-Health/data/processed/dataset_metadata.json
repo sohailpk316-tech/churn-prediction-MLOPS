@@ -1,0 +1,39 @@
+{
+    "dataset_name": "Student Mental Health Survey",
+    "problem": "Binary classification - does the student report Depression?",
+    "target": "depression",
+    "n_rows": 101,
+    "train_shape": [
+        80,
+        18
+    ],
+    "test_shape": [
+        21,
+        18
+    ],
+    "class_balance_train": {
+        "0": 52,
+        "1": 28
+    },
+    "class_balance_test": {
+        "0": 14,
+        "1": 7
+    },
+    "numerical_features": [
+        "age",
+        "year_of_study_num",
+        "cgpa_ordinal"
+    ],
+    "binary_features": [
+        "gender_bin",
+        "marital_status_bin",
+        "anxiety_bin",
+        "panic_attack_bin",
+        "sought_treatment_bin"
+    ],
+    "categorical_features": [
+        "course"
+    ],
+    "test_size": 0.2,
+    "random_state": 42
+}

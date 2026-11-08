@@ -1,0 +1,6 @@
+{
+  "status": "INPUT_VALIDATED",
+  "input_file": "data\\raw\\Student_Mental_health.csv",
+  "rows": 101,
+  "note": "No prediction generated because this lab handoff does not assume a compatible trained pipeline."
+}

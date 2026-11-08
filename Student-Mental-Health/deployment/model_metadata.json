@@ -1,0 +1,8 @@
+{
+  "project": "Student Mental Health",
+  "lab": 11,
+  "model_artifact": "models/best_model.pkl",
+  "model_type": "Pipeline",
+  "status": "READY",
+  "purpose": "Educational prediction demonstration only; not a clinical diagnostic tool."
+}

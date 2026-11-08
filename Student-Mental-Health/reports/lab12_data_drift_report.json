@@ -1,0 +1,47 @@
+{
+  "lab": 12,
+  "project": "Student Mental Health",
+  "baseline_rows": 101,
+  "current_rows": 101,
+  "threshold": 0.2,
+  "features": {
+    "Choose your gender": {
+      "psi": 0.0005194647515178432,
+      "status": "STABLE"
+    },
+    "Age": {
+      "psi": 8.668131580281287,
+      "status": "DRIFT"
+    },
+    "What is your course?": {
+      "psi": 1.8611626658484695,
+      "status": "DRIFT"
+    },
+    "Your current year of Study": {
+      "psi": 0.07408228243198366,
+      "status": "STABLE"
+    },
+    "What is your CGPA?": {
+      "psi": 0.028762548500673835,
+      "status": "STABLE"
+    },
+    "Marital status": {
+      "psi": 0.0,
+      "status": "STABLE"
+    },
+    "Do you have Anxiety?": {
+      "psi": 0.003872284873050212,
+      "status": "STABLE"
+    },
+    "Do you have Panic attack?": {
+      "psi": 0.0017563062014379102,
+      "status": "STABLE"
+    },
+    "Did you seek any specialist for a treatment?": {
+      "psi": 0.0019088401649628706,
+      "status": "STABLE"
+    }
+  },
+  "overall_status": "DRIFT_DETECTED",
+  "note": "Synthetic drift data is for coursework demonstration only; PSI is a monitoring signal, not a clinical conclusion."
+}
