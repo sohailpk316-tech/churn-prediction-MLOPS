@@ -1,0 +1,6 @@
+{
+  "status": "INPUT_VALIDATED",
+  "input_file": "data\\raw\\new_churn.csv",
+  "rows": 100,
+  "note": "No prediction generated because this lab handoff does not assume a compatible trained pipeline."
+}

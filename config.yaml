@@ -1,0 +1,5 @@
+project: telco-churn-mlops
+random_state: 42
+target_column: Churn
+raw_data: data/raw/churn.csv
+inference_data: data/raw/new_churn.csv
